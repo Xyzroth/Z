@@ -67,9 +67,9 @@ global.ppulsa2 = '085172402754' // kalau ada kartu lain isi aja
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6282112309026'
+global.nomorbot = '6285172398526'
 global.nomorown = '625172402754'
-global.namebot = 'ITSUKI-BOTS'
+global.namebot = 'Power-Bots'
 global.nameown = 'Maouk Store'
 
 /*============== Github Thanks To ==============*/
@@ -88,7 +88,7 @@ global.owner = [
   ['6285172402754', 'Maouk Store', true],
   ['6285942994641', 'Nolse Store', true],
   ['6285172398526', 'Power Bots', true],
-  ['6282112309026', 'Itsuki Bots', true],
+  ['6282112309026', 'Makima Bots', true],
   ['-', 'ISI KALAU ADA', true]
     //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
@@ -138,14 +138,14 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 ITSUKI - BOTS 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ITSUKI - BOTS ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ ITSUKI - BOTS '
+global.wm = '                「 Power - Bots 」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Power - Bots ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ Power - Bots'
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
 global.titlebot = `⫹⫺ WhatsApp Bot | BY Mouk & Nolse`
 global.packname = '☂︎ ᴄʀᴇᴀᴛᴇᴅ ʙʏ'
-global.author = '                「 ITSUKI - BOTS  あ」'
+global.author = '                「 Power - Bots  あ」'
 
 /*Fake*/
 global.fsizedoc = '1'.repeat(10)
@@ -636,8 +636,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'ITSUKI - BOTS'
-global.stickauth = `BY ©ITSUKI_BOTS`
+global.stickpack = 'Power - Bots'
+global.stickauth = `BY ©Power - Bots`
 
 global.multiplier = 38 // The higher, The harder levelup
 
