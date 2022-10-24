@@ -67,7 +67,7 @@ global.ppulsa2 = '085172402754' // kalau ada kartu lain isi aja
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '79914561535'
+global.nomorbot = '6282112309026'
 global.nomorown = '625172402754'
 global.namebot = 'Power-Bots'
 global.nameown = 'Maouk Store'
@@ -87,8 +87,8 @@ global.lolkey = 'e54205a4ca2caa368cc067bb' // PUNYA WAHID  8e66d0934cf741bfd2182
 global.owner = [
   ['6285172402754', 'Maouk Store', true],
   ['6285942994641', 'Nolse Store', true],
-  ['79914561535', 'Power Bots', true],
   ['6282112309026', 'Makima Bots', true],
+  ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true]
     //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
@@ -154,11 +154,11 @@ global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/2ef501361c674ca192e0a.jpg' //Main Thumbnail
-global.imagebot = 'https://telegra.ph/file/2ef501361c674ca192e0a.jpg'
+global.thumb = 'https://telegra.ph/file/4bc23c75e4e3e37b2beff.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/4bc23c75e4e3e37b2beff.jpg'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumbs = ['https://telegra.ph/file/2ef501361c674ca192e0a.jpg']
-global.fla = 'https://telegra.ph/file/2ef501361c674ca192e0a.jpg'
+global.thumbs = ['https://telegra.ph/file/4bc23c75e4e3e37b2beff.jpg']
+global.fla = 'https://telegra.ph/file/4bc23c75e4e3e37b2beff.jpg'
 global.thumbnailUrl = [
 'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg','https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
 'https://telegra.ph/file/6359b013bc7e52c3b346f.jpg','https://telegra.ph/file/d43c89a5d2da72875ec05.jpg',
@@ -636,8 +636,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'Power - Bots'
-global.stickauth = `BY ©Power - Bots`
+global.stickpack = 'Makima - Bots'
+global.stickauth = `BY ©Makima - Bots`
 
 global.multiplier = 38 // The higher, The harder levelup
 
