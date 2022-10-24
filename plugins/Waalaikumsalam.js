@@ -47,7 +47,7 @@ conn.reply(m.chat, info, m, { quoted: fkontak },{ contextInfo: { externalAdReply
       mediaUrl: "https://github.com/ImYanXiao",
       mediaType: 2,
       description: "https://github.com/ImYanXiao", 
-      title: 'whmods-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ',
+      title: 'Makima-Bots-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ',
       body: wm,
       thumbnail: thumb,
       sourceUrl: sig  }}})
