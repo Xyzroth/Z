@@ -67,7 +67,7 @@ global.ppulsa2 = '085172402754' // kalau ada kartu lain isi aja
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6285172398526'
+global.nomorbot = '79914561535'
 global.nomorown = '625172402754'
 global.namebot = 'Power-Bots'
 global.nameown = 'Maouk Store'
@@ -87,7 +87,7 @@ global.lolkey = 'e54205a4ca2caa368cc067bb' // PUNYA WAHID  8e66d0934cf741bfd2182
 global.owner = [
   ['6285172402754', 'Maouk Store', true],
   ['6285942994641', 'Nolse Store', true],
-  ['6285172398526', 'Power Bots', true],
+  ['79914561535', 'Power Bots', true],
   ['6282112309026', 'Makima Bots', true],
   ['-', 'ISI KALAU ADA', true]
     //Ganti jd nomormu sama Namamu
