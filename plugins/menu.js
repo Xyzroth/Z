@@ -35,41 +35,42 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
      let mim_ = ["application/vnd.openxmlformats-officedocument.presentationml.presentation","application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","application/vnd.openxmlformats-officedocument.wordprocessingml.document","text/rtf"]
      let lin_ = ["https://www.youtube.com","https://www.instagram.com","https://www.facebook.com"]
      let cap = `*${cmenut} Information ${htka}*
-${cmenub} *ðŸ·ï¸ Nama:* ${name}
-${cmenub} *â¤ï¸ Pasangan:*  ${pasangan ? `@${pasangan.split("@")[0]}` : `Tidak Punya And Jomblo`}
-${cmenub} *ðŸ’² Money:* *RP* ${money}
-${cmenub} *ðŸ† Level* ${level}
-${cmenub} *ðŸŽ‹ Role:* ${role}
-${cmenub} *ðŸ§¬ XP:* TOTAL ${exp} (${exp - min} / ${xp}) [${math <= 0 ? `Siap untuk *${usedPrefix}levelup*` : `${math} XP lagi untuk levelup`}]
-${cmenub} *ðŸ“¨ Terdaftar:* ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Tidak'} ${lastclaim > 0 ? '\n*â±ï¸Terakhir Klaim:* ' + new Date(lastclaim).toLocaleString() : ''}
+${cmenub} *🏷️ Nama:* ${name}
+${cmenub} *❤️ Pasangan:*  ${pasangan ? `@${pasangan.split("@")[0]}` : `Tidak Punya And Jomblo`}
+${cmenub} *💲 Money:* *RP* ${money}
+${cmenub} *🏆 Level* ${level}
+${cmenub} *🎋 Role:* ${role}
+${cmenub} *🧬 XP:* TOTAL ${exp} (${exp - min} / ${xp}) [${math <= 0 ? `Siap untuk *${usedPrefix}levelup*` : `${math} XP lagi untuk levelup`}]
+${cmenub} *📨 Terdaftar:* ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Tidak'} ${lastclaim > 0 ? '\n*⏱️Terakhir Klaim:* ' + new Date(lastclaim).toLocaleString() : ''}
 ${cmenuf}
+
 
 Ketik *${usedPrefix}inv* untuk melihat Inventory RPG Lu Ngab
 
 ${cmenua}`
 
-let weem = `ðŸ“® *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner`
+let weem = `📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner`
     let pusat = ["ke1", "ke2", "ke3", "ke4", "ke5", "ke6"]
 let pilih = pusat.getRandom()
 if (pilih == "ke1") {
-	await conn.send2ButtonDoc(m.chat, 'â”…â”€â”€â”€â”€â”…â”€â *MENU 1* ââ”€â”…â”€â”€â”€â”€â”…\n\n' + cap, weem, em.getRandom() + ' All Menu', '.? all', em.getRandom() + ' List Menu', usedPrefix + 'menulist', fakes, fakefb)
+	await conn.send2ButtonDoc(m.chat, '┅────┅─❏ *MENU 1* ❏─┅────┅\n\n' + cap, weem, em.getRandom() + ' All Menu', '.? all', em.getRandom() + ' List Menu', usedPrefix + 'menulist', fakes, fakefb)
 }
 if (pilih == "ke2") {
-	await conn.send2ButtonLoc(m.chat, imgr + 'Menu 2', 'â”…â”€â”€â”€â”€â”…â”€â *MENU 2* ââ”€â”…â”€â”€â”€â”€â”…\n\n' + cap, weem, em.getRandom() + ' All Menu', '.? all', em.getRandom() + ' List Menu', usedPrefix + 'menulist', fakes, fakefb)
+	await conn.send2ButtonLoc(m.chat, imgr + 'Menu 2', '┅────┅─❏ *MENU 2* ❏─┅────┅\n\n' + cap, weem, em.getRandom() + ' All Menu', '.? all', em.getRandom() + ' List Menu', usedPrefix + 'menulist', fakes, fakefb)
 }
 if (pilih == "ke3") {
-	await conn.send2ButtonImg(m.chat, imgr + 'Menu 3', 'â”…â”€â”€â”€â”€â”…â”€â *MENU 3* ââ”€â”…â”€â”€â”€â”€â”…\n\n' + cap, weem, em.getRandom() + ' All Menu', '.? all', em.getRandom() + ' List Menu', usedPrefix + 'menulist', fakes, fakefb)
+	await conn.send2ButtonImg(m.chat, imgr + 'Menu 3', '┅────┅─❏ *MENU 3* ❏─┅────┅\n\n' + cap, weem, em.getRandom() + ' All Menu', '.? all', em.getRandom() + ' List Menu', usedPrefix + 'menulist', fakes, fakefb)
 }
 if (pilih == "ke4") {
-	await conn.send2ButtonVid(m.chat, imgr + 'Menu 4', 'â”…â”€â”€â”€â”€â”…â”€â *MENU 4* ââ”€â”…â”€â”€â”€â”€â”…\n\n' + cap, weem, em.getRandom() + ' All Menu', '.? all', em.getRandom() + ' List Menu', usedPrefix + 'menulist', fakes, fakefb)
+	await conn.send2ButtonVid(m.chat, imgr + 'Menu 4', '┅────┅─❏ *MENU 4* ❏─┅────┅\n\n' + cap, weem, em.getRandom() + ' All Menu', '.? all', em.getRandom() + ' List Menu', usedPrefix + 'menulist', fakes, fakefb)
 }
 if (pilih == "ke5") {
 	let buttons = [{ buttonText: { displayText: em.getRandom() + 'Donasi' }, buttonId: '.donasi' }, { buttonText: { displayText: em.getRandom() + 'All Menu' }, buttonId: '.? all' }, { buttonText: { displayText: em.getRandom() + 'List menu' }, buttonId: '.menulist' }]
-    let msg = await conn.sendMessage(m.chat, { image: { url: `${imgr + 'Menu 5'}`}, caption: 'â”…â”€â”€â”€â”€â”…â”€â *MENU 5* ââ”€â”…â”€â”€â”€â”€â”…\n\n' + cap, footer: botdate, buttons }, { quoted: fakes })
+    let msg = await conn.sendMessage(m.chat, { image: { url: `${imgr + 'Menu 5'}`}, caption: '┅────┅─❏ *MENU 5* ❏─┅────┅\n\n' + cap, footer: botdate, buttons }, { quoted: fakes })
     conn.sendMessage(m.chat, { quoted: msg })
 }
 if (pilih == "ke6") {
-	await conn.sendTemplateButtonLoc(m.chat, imgr + 'Menu 6', 'â”…â”€â”€â”€â”€â”…â”€â *MENU 6* ââ”€â”…â”€â”€â”€â”€â”…\n\n' + cap, weem, em.getRandom() + ' List Menu', usedPrefix + 'menulist', fakes, fakefb)
+	await conn.sendTemplateButtonLoc(m.chat, imgr + 'Menu 6', '┅────┅─❏ *MENU 6* ❏─┅────┅\n\n' + cap, weem, em.getRandom() + ' List Menu', usedPrefix + 'menulist', fakes, fakefb)
 }
         
 }
