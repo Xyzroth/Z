@@ -68,7 +68,7 @@ global.psaweria = '-'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '6282112309026'
-global.nomorown = '625172402754'
+global.nomorown = '6285172402754'
 global.namebot = 'Power-Bots'
 global.nameown = 'Maouk Store'
 
@@ -636,8 +636,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'Makima - Bots'
-global.stickauth = `BY ©Makima - Bots`
+global.stickpack = 'Power - Bots'
+global.stickauth = `BY ©Power - Bots`
 
 global.multiplier = 38 // The higher, The harder levelup
 
