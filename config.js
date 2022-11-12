@@ -49,32 +49,32 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
 
-global.sig = 'https://instagram.com/maouk.store' // ig
-global.sgh = 'https://github.com/zodress/' // github
-global.sgc = 'https://chat.whatsapp.com/DbbDlICeGFuJiX9KlFyI17' // group whatsapp
-global.sdc = 'https://www.discord.com'//discord
-global.snh = 'https://www.youtube.com/' // my youtube channel
-global.sfb = 'https://www.facebook.com/' // facebook
-global.syt = 'https://www.youtube.com/' // my youtube channel "kalau ada yt ke 2 tarok link nya disini"
+global.sig = '_' // ig
+global.sgh = '_' // github
+global.sgc = 'https://chat.whatsapp.com/KhkU40vV2O4GwT1Yu7PPlp' // group whatsapp
+global.sdc = '_'//discord
+global.snh = 'https://youtube.com/channel/UC7dcYh3bx2TzYIo2aoTFRYQ' // my youtube channel
+global.sfb = '_' // facebook
+global.syt = '_' // my youtube channel "kalau ada yt ke 2 tarok link nya disini"
 
 /*============== PAYMENT ==============*/
-global.pdana = 'HUB OWNER' //dana
-global.povo = '-' //ovo
-global.pgopay = 'HUB OWNER' //gopay
+global.pdana = '081219058578' //dana
+global.povo = '085215511208' //ovo
+global.pgopay = '_' //gopay
 global.plinkaja = '-' //link aja
-global.ppulsa = '085172402754' //telkomsel
-global.ppulsa2 = '085172402754' // kalau ada kartu lain isi aja
+global.ppulsa = '085215511208' //telkomsel
+global.ppulsa2 = '083147450494' // kalau ada kartu lain isi aja
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6282112309026'
-global.nomorown = '6285172402754'
-global.namebot = 'Power-Bots'
-global.nameown = 'Maouk Store'
+global.nomorbot = '6283147450494'
+global.nomorown = '6285215511208'
+global.namebot = '𝐍𝐚𝐭𝐬𝐮-𝐁𝐨𝐭'
+global.nameown = 'XyzxyyRoth Store'
 
 /*============== Github Thanks To ==============*/
-global.namagithub = 'zodress' // nama github lu
-global.linkgithub = 'https://github.com/zodress' // tarok link github lu
+global.namagithub = 'Xyzroth' // nama github lu
+global.linkgithub = 'https://github.com/Xyzroth' // tarok link github lu
 
 // klau kgk ada github kasih tanda '-' aja biar kgk error
 
@@ -85,9 +85,9 @@ global.lolkey = 'e54205a4ca2caa368cc067bb' // PUNYA WAHID  8e66d0934cf741bfd2182
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6285172402754', 'Maouk Store', true],
+  ['6285215511208', 'XyzxyyRoth Store', true],
   ['-', 'ISI KALAU ADA', true],
-  ['6282112309026', 'Power Bots', true],
+  ['6283147450494', '𝐍𝐚𝐭𝐬𝐮-𝐁𝐨𝐭𝐳𝐳', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true]
     //Ganti jd nomormu sama Namamu
@@ -138,7 +138,7 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 Power - Bots 」' //Main Watermark
+global.wm = '                「 𝐍𝐚𝐭𝐬𝐮 - 𝐁𝐨𝐭𝐳𝐳 」' //Main Watermark
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Power - Bots ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 global.wm3 = '⫹⫺ Power - Bots'
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
@@ -636,8 +636,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'Power - Bots'
-global.stickauth = `BY ©Power - Bots`
+global.stickpack = ' - 𝐍𝐚𝐭𝐬𝐮-𝐁𝐨𝐭𝐳𝐳'
+global.stickauth = `BY ©XyzxyyRoth - Store`
 
 global.multiplier = 38 // The higher, The harder levelup
 
